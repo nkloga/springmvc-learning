@@ -17,8 +17,9 @@ http://oracle.com/webfolder/technetwork/jsc/xml/ns/javaee/web-app_3_0.xsd "
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
+        <!--dispetcher-servlet will be looked for-->
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-
 </web-app>
+
